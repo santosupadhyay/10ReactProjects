@@ -21,3 +21,9 @@ Steps to follow to initiate a project in react:
 		@tailwind utilities;
 		
 		5. npm run dev
+
+
+	For routing purpose 
+		npm i react-router-dom
+	
+	 

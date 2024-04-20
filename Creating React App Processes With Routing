@@ -1,0 +1,29 @@
+Steps to follow to initiate a project in react:
+	Using Vite
+	
+		1. npm create vite@latest
+		2. cd (folder name)
+		3. npm i
+		
+	For Tailwind CSS 
+		
+		4. npm install -D tailwindcss postcss autoprefixer
+		   npx tailwindcss init -p 
+		   
+	In Tailwind.config.js
+		content: [
+    			"./index.html",
+   			"./src/**/*.{js,ts,jsx,tsx}",
+  			],
+  	In index.css
+  		@tailwind base;
+		@tailwind components;
+		@tailwind utilities;
+		
+		5. npm run dev
+
+
+	For routing purpose 
+		npm i react-router-dom
+	
+	 
